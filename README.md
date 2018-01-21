@@ -1,5 +1,8 @@
 # Bank Transactions. The initial setup for banking system on Laravel.
 
+##Live Demo
+Check the demo version on this link bellow: <br>
+<a href="http://bank-transactions.jovetrajkoski.com">Demo</a>
 
 ## Introduction
 Backend Developer Test Task
@@ -91,4 +94,13 @@ http://your-local-domain/transactions
 - barryvdh/laravel-debugbar to manage and test all queries
 - For more complex design oriented approach follow this example: ( http://esbenp.github.io/2016/04/11/modern-rest-api-laravel-part-1/ )
 - Cool ideas from pspmedia developers :)
- 
+
+## ER Diagram
+![alt_text](https://i.imgur.com/isNQq8h.png "ERD")
+
+## Screenshots
+![alt text](https://i.imgur.com/vi8UnNh.png "Transactions")
+![alt text](https://i.imgur.com/1Bay5Zu.png "Transactions")
+![alt text](https://i.imgur.com/StR6rU0.png "Transactions")
+![alt text](https://i.imgur.com/bqJH07H.png "Transactions")
+![alt text](https://i.imgur.com/2o99uui.png "Transactions")
