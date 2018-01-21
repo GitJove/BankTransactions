@@ -20,7 +20,7 @@ class CreateCitiesTable extends Migration
             $table->string('name', 255)->default('')->comment('City Name');
             $table->string('full_name', 255)->nullable()->comment('City Fullname');
             $table->string('code', 64)->nullable()->comment('City Code');
-            $table->index(['country_id','division_id','name'], 'uniq_city');
+            // $table->index(['country_id','division_id','name'], 'uniq_city');
         });
     }
 
