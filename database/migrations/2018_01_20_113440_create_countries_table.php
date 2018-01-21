@@ -27,7 +27,7 @@ class CreateCountriesTable extends Migration
             $table->string('currency_name', 128)->nullable()->comment('iso_4217_name');
             $table->string('tld', 8)->nullable()->comment('Top level domain');
             $table->string('callingcode', 8)->nullable()->comment('Calling prefix');
-            $table->unique(['continent_id','name'], 'uniq_country');
+            // $table->unique(['continent_id','name'], 'uniq_country');
         });
     }
 
